@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <form>
+        COMPANY NAME:<input type="text" value="XYZ"/>
+        <br/><br/>
+        NAME:<input type="text" placeholder="Enter Full Name" required/>
+        <br/><br/>
+        EMAIL:<input type="email" placeholder="Enter Email" required/>
+        <br/><br/>
+        PASSWORD:<input type="password" placeholder="Enter Password" maxlength="10" minlength="4" required/>
+        <br/><br/>
+        USERNAME:<input type="text" placeholder="(optional)" maxlength="8"/>
+        <br/><br/>
+        AGE:<input type="number" placeholder="Enter Age" max="2" min="1" required/>
+        <br/><br/>
+        GENDER:Male:<input type="radio" name="status"/>
+        Female:<input type="radio" name="status"/>
+        Other:<input type="radio" name="status"/>
+        <br/><br/>
+        CHOOSE FAMILIAR SKILLS:C<input type="checkbox"/>C++<input type="checkbox"/>HTML<input type="checkbox"/>CSS<input type="checkbox"/>JavaScript<input type="checkbox"/>PHP<input type="checkbox"/>SQL<input type="checkbox"/>BootStrap<input type="checkbox"/>JAVA<input type="checkbox"/>Python<input type="checkbox"/>Docker<input type="checkbox"/>Kubernetes<input type="checkbox"/>
+        <br/><br/>
+        <label for="city">SELECT CITY:</label>
+        <select name="myCity" id="city"required>
+            <option value="Mum">Mumbai</option> <option value="Delhi">Delhi</option> <option value="Bang">Bangalore</option> <option value="Jaip">Jaipur</option> <option value="Jamsh">Jamshedpur</option> <option value="Ran">Ranchi</option> <option value="Patna">Patna</option> <option value="Ahemd">Ahmedabad</option> <option value="Odi">Odissa</option> <option value="Pune">Pune</option> <option value="Chenn">Chennai</option>
+            </select>
+        <br/><br/>
+        LINKEDIN URL:<input type="url"/>
+        <br/><br/>
+        GITHUB URL:<input type="url"/>
+        <br/><br/>
+        RESUME:<input type="file" required/>
+        <br/><br/>
+        SUBMISSION DATE:<input type="date" required/>
+        <br/><br/>
+        FEEDBACK TO OUR COMPANY:1<input type="range" min="1" max="5" required/>5
+        <br/><br/>
+        IF ANY MESSAGE:<br/><textarea placeholder="Type Message (optional)" cols="100" rows="5"></textarea>
+        <br/><br/>
+        <button type="submit">Register</button>
+        <br/><br/>
+        <button type="reset">Clear</button>
+    </form>
+</body>
+</html>
